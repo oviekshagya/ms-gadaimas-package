@@ -2,6 +2,6 @@ package ms_gadaimas_package
 
 import "fmt"
 
-func Say() {
-	fmt.Println("MS-GADAIMAS-PACKAGE SAY")
+func Say() string {
+	return fmt.Sprintf("MS-GADAIMAS-PACKAGE SAY")
 }
